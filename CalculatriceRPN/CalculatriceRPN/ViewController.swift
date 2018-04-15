@@ -147,8 +147,7 @@ class ViewController: UIViewController {
         calcTape.append(labelString)
         labelString = ""
     }
-    
-    
+    // https://github.com/MBDSTEAMIOS/TP_IOS-Calculatrice.git
     @IBAction func clear(_ sender: UIButton) {
         
         labelDisplay.text = "\(0)"
